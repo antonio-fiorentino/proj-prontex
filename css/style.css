@@ -38,21 +38,43 @@ header{
     margin-top: 95px;
 }
 
-.oximeter>.row>.sez-right>h6{
+.oximeter>.row>.sez-left>h6{
     color: #d20000;
 }
 
-.oximeter>.row>.sez-right>h3{
+.oximeter>.row>.sez-left>h3{
     text-transform: uppercase;
     color: #053769;
     font-weight: bold;
 }
 
-.oximeter>.row>.sez-left{
+/* .oximeter>.row>.sez-left{
     background-color: grey;
 }
+ */
+.oximeter>.row>.sez-right{
+    font-size: 16px;
+    line-height: 1 !important;
+    padding: 20px 0px 0px 100px;
+}
 
-.oximeter>.row>.sez-left>ul>li{
-    list-style: none;
-    margin: 20px 10px;
+
+.oximeter>.row>.sez-right>.list-flex>img{
+    margin: 10px 25px;
+    width: 60px;
+    
+}
+
+.oximeter>.row>.sez-right>.list-flex>div{
+    margin-top:10px;
+}
+
+.title-blue{
+    color: #053769;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.description{
+    overflow-wrap: break-word;
 }
