@@ -55,19 +55,20 @@ header{
 .oximeter>.row>.sez-right{
     font-size: 16px;
     line-height: 1 !important;
-    padding: 20px 0px 0px 100px;
+    padding: 20px 0px 0px 150px;
 }
 
 
 .oximeter>.row>.sez-right>.list-flex>img{
-    margin: 10px 25px;
+    margin: 20px 25px;
     width: 60px;
     
 }
 
 .oximeter>.row>.sez-right>.list-flex>div{
-    margin-top:10px;
+    margin-top:20px;
 }
+
 
 .title-blue{
     color: #053769;
@@ -77,4 +78,14 @@ header{
 
 .description{
     overflow-wrap: break-word;
+}
+
+.button-personalized{
+    border-radius: 30px;
+    border: 5px solid #c1defc;
+    font-size: 16px;
+    width: 290px;
+    height: 50px;
+    color: #053769;
+    font-weight: bold;
 }
