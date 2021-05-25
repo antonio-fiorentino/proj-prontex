@@ -1,0 +1,58 @@
+header{
+    height: 85px;
+    line-height: 85px;
+}
+
+.list>ul>li{
+    list-style: none;
+    display: inline-block;
+    font-size:12.25px !important;
+    margin: 0px 2.5px;
+    color: #1a1a1a;
+}
+
+.list>ul>li>a{
+    text-decoration: none;
+    color: #1a1a1a;
+}
+
+.video{
+    margin-top: 380px;
+    margin-bottom: 80px;;
+}
+
+.video>h1{
+    font-size: 64.54px;
+    color: #003366;
+    font-weight:400;
+}
+
+.waves>img{
+    width: 100%;
+}
+
+.oximeter{
+    height: 100px;
+    width: 960px;
+    margin: auto;
+    margin-top: 95px;
+}
+
+.oximeter>.row>.sez-right>h6{
+    color: #d20000;
+}
+
+.oximeter>.row>.sez-right>h3{
+    text-transform: uppercase;
+    color: #053769;
+    font-weight: bold;
+}
+
+.oximeter>.row>.sez-left{
+    background-color: grey;
+}
+
+.oximeter>.row>.sez-left>ul>li{
+    list-style: none;
+    margin: 20px 10px;
+}
