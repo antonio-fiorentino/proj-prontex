@@ -175,79 +175,151 @@ header {
     font-weight: bold;
 }
 
-#operation{
+#operation {
     margin-bottom: 75px;
 }
 
-.operation>h6{
+.operation > h6 {
     color: #00a5ef;
     font-weight: 600;
 }
 
-.operation>h5{
+.operation > h5 {
     color: #d40d0d;
     font-weight: bold;
 }
 
-.operation>h3{
+.operation > h3 {
     text-transform: uppercase;
     color: #053769;
     font-weight: bold;
 }
 
-.sez-p-blue{
+.sez-p-blue {
     color: #053769;
     font-size: 22.87px;
 }
 
-.measurement{
+.measurement {
     background-color: #f6fafc;
     padding: 75px 0;
     margin-bottom: 75px;
 }
 
-.measurement>div:first-of-type{
+.measurement > div:first-of-type {
     margin-bottom: 50px;
 }
 
-.measurement>div>h4{
+.measurement > div > h4 {
     font-weight: bold;
     color: #053769;
 }
 
-.measurement>div>h4>span{
+.measurement > div > h4 > span {
     color: #01a2ec;
 }
 
-.steps-img{
+.steps-img {
     border-radius: 50%;
     height: 194px;
     width: 199px;
     background-color: #00a5ef;
 }
 
-.steps-img>img{
+.steps-img > img {
     border-radius: 50%;
     height: 188px;
     width: 192px;
 }
 
-.steps>*{
+.steps > * {
     margin-bottom: 32px;
 }
 
-.steps>p{
+.steps > p {
     font-size: 15px;
 }
 
-.steps>h2{
+.steps > h2 {
     font-size: 59.31px;
     color: #053769;
     font-weight: 600;
 }
 
-.warnings>h6{
+.warnings > h6 {
     color: #d40d0d;
     font-weight: bold;
     font-size: 14px;
+    margin-top: 30px;
+}
+
+.sez-values{
+    margin-bottom: 1000px;
+}
+
+.sez-values > div > h6 {
+    color: #d40d0d;
+    font-weight: 600;
+}
+
+.sez-values > div > h2 {
+    color: #003366;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.sez-values > .row {
+    margin-top: 80px;
+}
+
+.sez-values > .row > div > img {
+    width: 205px;
+}
+
+.sez-values > .row > div > p:first-of-type {
+    color: #00a5ef;
+    font-size: 22.87px;
+    line-height: 1.2;
+}
+
+.sez-values > .row > div > p:last-of-type > span {
+    font-weight: 600;
+}
+
+.sez-values > .row > div > p:first-of-type > span {
+    font-weight: 600;
+}
+
+.values-numbers > h4{
+    font-weight: bold;
+    color: #053769;
+    text-transform: uppercase;
+    margin-bottom: 30px;;
+}
+
+.numbers > div > h2{
+    color: #053769;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.numbers > div > h6{
+    color: #053769;
+    font-weight: 600;
+}
+
+.rectangle{
+    padding: 0 25px;
+}
+
+.red-rectangle{
+    background-color: #d20000;
+    height: 11.41px;
+    width: 100%;
+}
+
+.blue-rectangle{
+    background-color: #00a5ef;
+    height: 11.41px;
+    width: 100%;
 }
