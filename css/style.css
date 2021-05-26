@@ -106,7 +106,14 @@ header{
     background-image: url(../img/bg-image-box.jpg);
     background-repeat: no-repeat;
     background-position: 50% -1%;
-    padding: 29px 176px 0px 163px;
+    padding: 29px 176px 0px 165px;
+    word-wrap:break-word;
+}
+
+.box>div>h6{
+    color: #d40d0d;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .box>div>h2{
@@ -114,4 +121,29 @@ header{
     font-size: 32.67px;
     font-weight: bold;
     line-height: 0.9;
+    color: #053769;
+}
+
+.box>.subtitle>p{
+    padding: 0 30px 0 30px;
+    margin-top: 30px;;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.doctor-advises{
+    margin-top: 5px;
+    height: 1000px;
+}
+
+.doc{
+    background-image: url(../img/doc.jpg);
+    width: 921px;
+    height: 573px;
+}
+
+.box-advises{
+    background-color: #04427c;
+    height: 570px;
+    
 }
