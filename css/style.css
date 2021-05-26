@@ -175,6 +175,10 @@ header {
     font-weight: bold;
 }
 
+#operation{
+    margin-bottom: 75px;
+}
+
 .operation>h6{
     color: #00a5ef;
     font-weight: 600;
@@ -194,4 +198,56 @@ header {
 .sez-p-blue{
     color: #053769;
     font-size: 22.87px;
+}
+
+.measurement{
+    background-color: #f6fafc;
+    padding: 75px 0;
+    margin-bottom: 75px;
+}
+
+.measurement>div:first-of-type{
+    margin-bottom: 50px;
+}
+
+.measurement>div>h4{
+    font-weight: bold;
+    color: #053769;
+}
+
+.measurement>div>h4>span{
+    color: #01a2ec;
+}
+
+.steps-img{
+    border-radius: 50%;
+    height: 194px;
+    width: 199px;
+    background-color: #00a5ef;
+}
+
+.steps-img>img{
+    border-radius: 50%;
+    height: 188px;
+    width: 192px;
+}
+
+.steps>*{
+    margin-bottom: 32px;
+}
+
+.steps>p{
+    font-size: 15px;
+}
+
+.steps>h2{
+    font-size: 59.31px;
+    color: #053769;
+    font-weight: 600;
+}
+
+.warnings>h6{
+    color: #d40d0d;
+    font-weight: bold;
+    font-size: 14px;
 }
