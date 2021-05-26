@@ -1,3 +1,7 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
 header{
     height: 85px;
     line-height: 85px;
@@ -45,16 +49,13 @@ header{
     text-transform: uppercase;
     color: #053769;
     font-weight: bold;
+    margin-bottom: 30px;
 }
 
-/* .oximeter>.row>.sez-left{
-    background-color: grey;
-}
- */
 .oximeter>.row>.sez-right{
     font-size: 16px;
     line-height: 1 !important;
-    padding: 20px 0px 0px 150px;
+    padding: 20px 0px 0px 100px;
 }
 
 
@@ -65,7 +66,7 @@ header{
 }
 
 .oximeter>.row>.sez-right>.list-flex>div{
-    margin-top:20px;
+    margin-top: 20px;
 }
 
 
@@ -77,6 +78,7 @@ header{
 
 .description{
     overflow-wrap: break-word;
+    font-size: 16px;
 }
 
 .button-personalized{
@@ -96,8 +98,20 @@ header{
 }
 
 .box{
-    height: 560.49px;
-    width: 1036.12px;
+    height: 571px;
+    width: 1029px;
+    background-color: white;
     border-radius: 20px;
     border: 5px solid #c1defc;
+    background-image: url(../img/bg-image-box.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% -1%;
+    padding: 29px 176px 0px 163px;
+}
+
+.box>div>h2{
+    text-transform: uppercase;
+    font-size: 32.67px;
+    font-weight: bold;
+    line-height: 0.9;
 }
