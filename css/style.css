@@ -1,87 +1,84 @@
-*{
-    font-family: 'Poppins', sans-serif;
+* {
+    font-family: "Poppins", sans-serif;
 }
 
-header{
+header {
     height: 85px;
     line-height: 85px;
 }
 
-.list>ul>li{
+.list > ul > li {
     list-style: none;
     display: inline-block;
-    font-size:12.25px !important;
+    font-size: 12.25px !important;
     margin: 0px 2.5px;
     color: #1a1a1a;
 }
 
-.list>ul>li>a{
+.list > ul > li > a {
     text-decoration: none;
     color: #1a1a1a;
 }
 
-.video{
+.video {
     margin-top: 380px;
-    margin-bottom: 80px;;
+    margin-bottom: 80px;
 }
 
-.video>h1{
+.video > h1 {
     font-size: 64.54px;
     color: #003366;
-    font-weight:400;
+    font-weight: 400;
 }
 
-.waves>img{
+.waves > img {
     width: 100%;
 }
 
-.oximeter{
+.container-prontex {
     width: 960px;
     margin: auto;
-    margin-top: 95px;
+    margin-top: 95px !important;
 }
 
-.oximeter>.row>.sez-left>h6{
+.container-prontex > .row > .sez-left > h6 {
     color: #d20000;
 }
 
-.oximeter>.row>.sez-left>h3{
+.container-prontex > .row > .sez-left > h3 {
     text-transform: uppercase;
     color: #053769;
     font-weight: bold;
     margin-bottom: 30px;
 }
 
-.oximeter>.row>.sez-right{
+.container-prontex > .row > .sez-right {
     font-size: 16px;
     line-height: 1 !important;
     padding: 20px 0px 0px 100px;
 }
 
-
-.oximeter>.row>.sez-right>.list-flex>img{
+.container-prontex > .row > .sez-right > .list-flex > img {
     margin: 20px 25px;
     width: 60px;
-    
 }
 
-.oximeter>.row>.sez-right>.list-flex>div{
+.container-prontex > .row > .sez-right > .list-flex > div {
     margin-top: 20px;
 }
 
-
-.title-blue{
+.title-blue {
     color: #053769;
     font-size: 20px;
     font-weight: bold;
 }
 
-.description{
+.description {
     overflow-wrap: break-word;
     font-size: 16px;
 }
 
-.button-personalized{
+.button-personalized-1 {
     border-radius: 30px;
     border: 5px solid #c1defc;
     font-size: 16px;
@@ -92,12 +89,12 @@ header{
     margin: 75px 0px;
 }
 
-.information-box{
+.information-box {
     height: 752px;
     background-color: #e7f7fe;
 }
 
-.box{
+.box {
     height: 571px;
     width: 1029px;
     background-color: white;
@@ -107,16 +104,16 @@ header{
     background-repeat: no-repeat;
     background-position: 50% -1%;
     padding: 29px 176px 0px 165px;
-    word-wrap:break-word;
+    word-wrap: break-word;
 }
 
-.box>div>h6{
+.box > div > h6 {
     color: #d40d0d;
     text-transform: uppercase;
     font-weight: bold;
 }
 
-.box>div>h2{
+.box > div > h2 {
     text-transform: uppercase;
     font-size: 32.67px;
     font-weight: bold;
@@ -124,26 +121,77 @@ header{
     color: #053769;
 }
 
-.box>.subtitle>p{
+.box > .subtitle > p {
     padding: 0 30px 0 30px;
-    margin-top: 30px;;
+    margin-top: 30px;
     font-weight: 600;
     font-size: 18px;
 }
 
-.doctor-advises{
+.doctor-advises {
     margin-top: 5px;
-    height: 1000px;
+    height: 573px;
 }
 
-.doc{
+.doc {
     background-image: url(../img/doc.jpg);
     width: 921px;
     height: 573px;
 }
 
-.box-advises{
+.box-advises {
     background-color: #04427c;
     height: 570px;
-    
+    color: #fff;
+    padding: 143px 460px 0px 75px !important;
+}
+
+.box-advises > h6 {
+    font-size: 16.63px;
+    font-weight: 500;
+}
+
+.box-advises > h2 {
+    text-transform: uppercase;
+    font-size: 32.67px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.box-advises > p {
+    font-size: 16.63px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    line-height: 2;
+}
+
+.button-personalized {
+    border-radius: 30px;
+    border: 5px solid #c1defc;
+    font-size: 16px;
+    width: 290px;
+    height: 50px;
+    color: #053769;
+    font-weight: bold;
+}
+
+.operation>h6{
+    color: #00a5ef;
+    font-weight: 600;
+}
+
+.operation>h5{
+    color: #d40d0d;
+    font-weight: bold;
+}
+
+.operation>h3{
+    text-transform: uppercase;
+    color: #053769;
+    font-weight: bold;
+}
+
+.sez-p-blue{
+    color: #053769;
+    font-size: 22.87px;
 }
