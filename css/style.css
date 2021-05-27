@@ -253,10 +253,10 @@ header {
     margin-top: 30px;
 }
 
-.sez-values{
+/* .sez-values{
     margin-bottom: 1000px;
 }
-
+ */
 .sez-values > div > h6 {
     color: #d40d0d;
     font-weight: 600;
@@ -290,36 +290,81 @@ header {
     font-weight: 600;
 }
 
-.values-numbers > h4{
+.values-numbers > h4 {
     font-weight: bold;
     color: #053769;
     text-transform: uppercase;
-    margin-bottom: 30px;;
+    margin-bottom: 30px;
 }
 
-.numbers > div > h2{
+.numbers > div > h2 {
     color: #053769;
     font-weight: 600;
     font-size: 40px;
 }
 
-.numbers > div > h6{
+.numbers > div > h6 {
     color: #053769;
     font-weight: 600;
 }
 
-.rectangle{
+.rectangle {
     padding: 0 25px;
 }
 
-.red-rectangle{
+.red-rectangle {
     background-color: #d20000;
     height: 11.41px;
     width: 100%;
 }
 
-.blue-rectangle{
+.blue-rectangle {
     background-color: #00a5ef;
     height: 11.41px;
     width: 100%;
 }
+
+.right-values > h6:last-of-type {
+    font-weight: bold;
+    color: #d20000;
+    margin: 35px 0 60px 24px;
+}
+
+.sez-eng > ul {
+    margin-bottom: 0 !important;
+}
+
+.sez-eng > p {
+    font-weight: bold;
+    margin-left: 24px;
+}
+
+.reasons > div:first-of-type {
+    padding: 0 !important;
+    background-color: #1b4077;
+}
+
+.reasons > div:last-of-type {
+    background-color: #1b4077;
+    color: #fff;
+    padding: 45px 0 0 35px;
+    font-size: 20px;
+}
+
+.reasons > div:last-of-type > div {
+    margin: 40px 0;
+}
+
+
+.reasons > div:last-of-type > h2 {
+    font-weight: 500;
+    font-size: 39.11px;
+    margin-left: 6px;
+    margin-bottom: 40px;
+}
+
+.reasons > div:last-of-type > div > img{
+    height: 39px !important;
+    line-height: 100%;
+}
+
