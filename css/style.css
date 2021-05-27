@@ -2,6 +2,8 @@
     font-family: "Poppins", sans-serif;
 }
 
+/* Navbar */
+
 header {
     height: 85px;
     line-height: 85px;
@@ -20,6 +22,8 @@ header {
     color: #1a1a1a;
 }
 
+/* Video */
+
 .video {
     margin-top: 380px;
     margin-bottom: 80px;
@@ -34,6 +38,8 @@ header {
 .waves > img {
     width: 100%;
 }
+
+/* Strengths */
 
 .container-prontex {
     width: 960px;
@@ -90,6 +96,8 @@ header {
     cursor: pointer;
 }
 
+/* Informatio Box */
+
 .information-box {
     height: 752px;
     background-color: #e7f7fe;
@@ -127,6 +135,8 @@ header {
     font-weight: 600;
     font-size: 18px;
 }
+
+/* Doctor Advises */
 
 .doctor-advises {
     margin-top: 5px;
@@ -176,6 +186,8 @@ header {
     cursor: pointer;
 }
 
+/* Operation */
+
 #operation {
     margin-bottom: 75px;
 }
@@ -200,6 +212,8 @@ header {
     color: #053769;
     font-size: 22.87px;
 }
+
+/* Measurement */
 
 .measurement {
     background-color: #f6fafc;
@@ -254,10 +268,8 @@ header {
     margin-top: 30px;
 }
 
-/* .sez-values{
-    margin-bottom: 1000px;
-}
- */
+/* Values */
+
 .sez-values > div > h6 {
     color: #d40d0d;
     font-weight: 600;
@@ -310,7 +322,7 @@ header {
 }
 
 .rectangle {
-    padding: 0 25px;
+    padding: 0 20px;
 }
 
 .red-rectangle {
@@ -344,6 +356,8 @@ header {
     margin-left: 24px;
 }
 
+/* Reasons */
+
 .reasons > div:first-of-type {
     padding: 0 !important;
     background-color: #1b4077;
@@ -371,6 +385,8 @@ header {
     height: 39px !important;
     line-height: 100%;
 }
+
+/* FAQ */
 
 #faq {
     margin-top: 90px;
@@ -413,6 +429,8 @@ header {
     font-size: 12px;
     text-align: center;
 }
+
+/* Footer */
 
 footer {
     background-image: url("../img/footer-waves.jpg");
