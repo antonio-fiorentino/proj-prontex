@@ -87,6 +87,7 @@ header {
     color: #053769;
     font-weight: bold;
     margin: 75px 0px;
+    cursor: pointer;
 }
 
 .information-box {
@@ -103,8 +104,7 @@ header {
     background-image: url("../img/bg-image-box.jpg");
     background-repeat: no-repeat;
     background-position: 50% -1%;
-    padding: 29px 176px 0px 165px;
-    word-wrap: break-word;
+    padding: 25px 0 0 0;
 }
 
 .box > div > h6 {
@@ -173,6 +173,7 @@ header {
     height: 50px;
     color: #053769;
     font-weight: bold;
+    cursor: pointer;
 }
 
 #operation {
@@ -330,6 +331,10 @@ header {
     margin: 35px 0 60px 24px;
 }
 
+.sez-eng {
+    margin-bottom: 45px;
+}
+
 .sez-eng > ul {
     margin-bottom: 0 !important;
 }
@@ -398,6 +403,7 @@ header {
 .blue-plus {
     color: #00a5ef;
     font-size: 24px;
+    cursor: pointer;
 }
 
 .info {
@@ -432,19 +438,25 @@ footer > div > ul > li > a {
     color: #1a1a1a;
 }
 
-.contact{
+footer > div > ul > li > a:hover {
+    text-decoration: none;
+    color: #1a1a1a;
+
+}
+
+.contact {
     line-height: 1;
     margin-top: 58px;
 }
 
-.contact>.row{
+.contact > .row {
     padding-left: 20px;
 }
 
-.contact > .row>div>{
+.contact > .row > div > {
     vertical-align: middle;
 }
 
-.contact-details{
+.contact-details {
     font-size: 12px;
 }
