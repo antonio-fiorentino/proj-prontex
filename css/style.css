@@ -100,7 +100,7 @@ header {
     background-color: white;
     border-radius: 20px;
     border: 5px solid #c1defc;
-    background-image: url(../img/bg-image-box.jpg);
+    background-image: url("../img/bg-image-box.jpg");
     background-repeat: no-repeat;
     background-position: 50% -1%;
     padding: 29px 176px 0px 165px;
@@ -134,7 +134,7 @@ header {
 }
 
 .doc {
-    background-image: url(../img/doc.jpg);
+    background-image: url("../img/doc.jpg");
     width: 921px;
     height: 573px;
 }
@@ -355,7 +355,6 @@ header {
     margin: 40px 0;
 }
 
-
 .reasons > div:last-of-type > h2 {
     font-weight: 500;
     font-size: 39.11px;
@@ -363,8 +362,89 @@ header {
     margin-bottom: 40px;
 }
 
-.reasons > div:last-of-type > div > img{
+.reasons > div:last-of-type > div > img {
     height: 39px !important;
     line-height: 100%;
 }
 
+#faq {
+    margin-top: 90px;
+}
+
+.questions {
+    color: #053769;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.box-questions {
+    height: 58.91px;
+    width: 780.5px;
+    margin: 10px 0;
+    border: 2px solid rgb(211, 211, 211);
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(211, 211, 211, 0.9);
+    -moz-box-shadow: 3px 3px 5px rgba(211, 211, 211, 0.9);
+    -webkit-box-shadow: 3px 3px 5px rgba(211, 211, 211, 0.9);
+    -o-box-shadow: 3px 3px 5px rgba(211, 211, 211, 0.9);
+    padding: 0 25px;
+    font-weight: 500;
+}
+
+.container-questions {
+    margin-top: 70px;
+}
+
+.blue-plus {
+    color: #00a5ef;
+    font-size: 24px;
+}
+
+.info {
+    background-color: #f7f7f7;
+    padding: 15px 0;
+    margin: 80px 0 48px 0;
+    font-size: 12px;
+    text-align: center;
+}
+
+footer {
+    background-image: url("../img/footer-waves.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+}
+
+footer > div > ul {
+    margin: 20px 40px 40px 0;
+}
+
+footer > div > ul > li {
+    list-style: none;
+    display: inline-block;
+    font-size: 12.25px !important;
+    margin: 0px 5px;
+    color: #1a1a1a;
+}
+
+footer > div > ul > li > a {
+    text-decoration: none;
+    color: #1a1a1a;
+}
+
+.contact{
+    line-height: 1;
+    margin-top: 58px;
+}
+
+.contact>.row{
+    padding-left: 20px;
+}
+
+.contact > .row>div>{
+    vertical-align: middle;
+}
+
+.contact-details{
+    font-size: 12px;
+}
