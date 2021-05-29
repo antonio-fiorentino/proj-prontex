@@ -397,6 +397,101 @@ header {
     line-height: 100%;
 }
 
+/* FAQ */
+
+#faq {
+    margin-top: 90px;
+    padding: 0 15px;
+}
+
+.questions {
+    color: #053769;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.box-questions {
+    height: 58.91px;
+    margin: 10px 0;
+    border: 2px solid rgb(211, 211, 211);
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(211, 211, 211, 0.9);
+    -moz-box-shadow: 3px 3px 5px rgba(211, 211, 211, 0.9);
+    -webkit-box-shadow: 3px 3px 5px rgba(211, 211, 211, 0.9);
+    -o-box-shadow: 3px 3px 5px rgba(211, 211, 211, 0.9);
+    padding: 0 25px;
+    font-weight: 500;
+}
+
+.container-questions {
+    margin-top: 70px;
+}
+
+.blue-plus {
+    color: #00a5ef;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.info {
+    background-color: #f7f7f7;
+    padding: 15px 0;
+    margin: 80px 0 48px 0;
+    font-size: 12px;
+    text-align: center;
+}
+
+/* Footer */
+
+footer {
+    background-image: url("../img/footer-waves.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+}
+
+footer > div > ul {
+    margin: 20px 40px 40px 0;
+}
+
+footer > div > ul > li {
+    list-style: none;
+    display: inline-block;
+    font-size: 12.25px !important;
+    margin: 0px 5px;
+    color: #1a1a1a;
+}
+
+footer > div > ul > li > a {
+    text-decoration: none;
+    color: #1a1a1a;
+}
+
+footer > div > ul > li > a:hover {
+    text-decoration: none;
+    color: #1a1a1a;
+
+}
+
+.contact {
+    line-height: 1;
+    margin-top: 58px;
+}
+
+.contact > .row {
+    padding-left: 20px;
+}
+
+.contact > .row > div > {
+    vertical-align: middle;
+}
+
+.contact-details {
+    font-size: 12px;
+}
+
+/* media queries */
+
 @media screen and (max-width: 991px){
     .img-none{
         display: none;
@@ -532,13 +627,6 @@ header {
     
 }
 
-/* @media screen and (min-width: 1199px){
-    .reasons > div:last-of-type > div {
-        margin: 2% 0 !important;
-    }   
-    
-}
- */
 @media screen and (max-width: 1200px){
     .container-prontex > .row > .sez-right {
         padding: 0 ;
@@ -562,96 +650,4 @@ header {
         font-size: 14px !important;
     }
 
-}
-
-/* FAQ */
-
-#faq {
-    margin-top: 90px;
-}
-
-.questions {
-    color: #053769;
-    font-size: 26px;
-    font-weight: bold;
-}
-
-.box-questions {
-    height: 58.91px;
-    margin: 10px 0;
-    border: 2px solid rgb(211, 211, 211);
-    border-radius: 10px;
-    box-shadow: 3px 3px 5px rgba(211, 211, 211, 0.9);
-    -moz-box-shadow: 3px 3px 5px rgba(211, 211, 211, 0.9);
-    -webkit-box-shadow: 3px 3px 5px rgba(211, 211, 211, 0.9);
-    -o-box-shadow: 3px 3px 5px rgba(211, 211, 211, 0.9);
-    padding: 0 25px;
-    font-weight: 500;
-}
-
-.container-questions {
-    margin-top: 70px;
-}
-
-.blue-plus {
-    color: #00a5ef;
-    font-size: 24px;
-    cursor: pointer;
-}
-
-.info {
-    background-color: #f7f7f7;
-    padding: 15px 0;
-    margin: 80px 0 48px 0;
-    font-size: 12px;
-    text-align: center;
-}
-
-/* Footer */
-
-footer {
-    background-image: url("../img/footer-waves.jpg");
-    height: 500px;
-    background-repeat: no-repeat;
-    background-position: 50% 100%;
-}
-
-footer > div > ul {
-    margin: 20px 40px 40px 0;
-}
-
-footer > div > ul > li {
-    list-style: none;
-    display: inline-block;
-    font-size: 12.25px !important;
-    margin: 0px 5px;
-    color: #1a1a1a;
-}
-
-footer > div > ul > li > a {
-    text-decoration: none;
-    color: #1a1a1a;
-}
-
-footer > div > ul > li > a:hover {
-    text-decoration: none;
-    color: #1a1a1a;
-
-}
-
-.contact {
-    line-height: 1;
-    margin-top: 58px;
-}
-
-.contact > .row {
-    padding-left: 20px;
-}
-
-.contact > .row > div > {
-    vertical-align: middle;
-}
-
-.contact-details {
-    font-size: 12px;
 }
